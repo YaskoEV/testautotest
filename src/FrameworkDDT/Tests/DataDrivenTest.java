@@ -23,6 +23,7 @@ public void BeforeTest(){
 	driver.manage().timeouts().pageLoadTimeout(45,TimeUnit.SECONDS);
 	driver.navigate().to("https://www.facebook.com/");
 	System.out.println("Launched the chrome browser with the given url");
+	//lkjljj
 
 }
 
