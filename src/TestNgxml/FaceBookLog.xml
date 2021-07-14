@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TimeSuite" verbose="1">
+	<listeners>
+		<listener class-name="TestNG.Listener.class" />
+	</listeners>
+
+	<test name="ChromeTest">
+		<parameter name="browser" value="FF" />
+		<classes>
+			<class name="TestNG.FacebookLoginParallel" />
+		</classes>
+	</test>
+
+	<test name="FireFoxTest">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="TestNG.FacebookLoginParallel" />
+		</classes>
+	</test>
+</suite> 

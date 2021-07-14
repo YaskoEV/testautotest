@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>TestProj</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/AddWebDriver.java</name>
+			<type>1</type>
+			<location>D:/YandexDisk/QA/SeleniumEclips/TestProj/src/AddWebDriver.java</location>
+		</link>
+		<link>
+			<name>src/Element.java</name>
+			<type>1</type>
+			<location>D:/YandexDisk/QA/SeleniumEclips/TestProj/src/Element.java</location>
+		</link>
+		<link>
+			<name>src/findBy.java</name>
+			<type>1</type>
+			<location>D:/YandexDisk/QA/SeleniumEclips/TestProj/src/findBy.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+  <test name="FirtsPriority">
+    <classes>
+      <class name="TestNG.TestNGDependency"/>
+      <class name="TestNG.TestNGAnnotation"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="SecondPriority">
+    <classes>
+      <class name="TestNG.TestNGGrouping2"/>
+      <class name="TestNG.FacebookLoginDataProvider"/>
+      <class name="TestNG.TestNGPriority"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

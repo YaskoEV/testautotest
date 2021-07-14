@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TimeSuite"  verbose="10" >
+
+
+  <test name="Test">  
+  <parameter name = "param" value="Sunday" /> 
+   <parameter name = "optionalParam" value="is sunny"/>     
+    <classes>
+      <class name="TestNG.Parameter"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test2">  
+  <parameter name = "param" value="Sunday2" /> 
+   <parameter name = "optionalParam" value="is sunny222"/>     
+    <classes>
+      <class name="TestNG.Parameter"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
