@@ -11,10 +11,10 @@ public class TestClass {
 	        driver.get("https://habr.com");
 	        String strUrl = driver.getTitle();
 	        //System.out.println("Title: " + strUrl);
-	        if (strUrl.equals("Все публикации подряд / Хабр")) {
-	            System.out.println("Название страницы: " + strUrl);
+	        if (strUrl.equals("Р’СЃРµ РїСѓР±Р»РёРєР°С†РёРё РїРѕРґСЂСЏРґ / РҐР°Р±СЂ")) {
+	            System.out.println("РќР°Р·РІР°РЅРёРµ СЃС‚СЂР°РЅРёС†С‹: " + strUrl);
 	        }
-	        else System.out.println("Название страницы не соответствует параметрам");
+	        else System.out.println("РќР°Р·РІР°РЅРёРµ СЃС‚СЂР°РЅРёС†С‹ РЅРµ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РїР°СЂР°РјРµС‚СЂР°Рј");
 	 
 	        driver.manage().window().maximize();
 	        WebElement buttonEnt = driver.findElement(By.id("login"));
