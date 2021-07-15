@@ -1,4 +1,4 @@
-package appModules;
+package FinalProject.appModules;
 
 
 import org.openqa.selenium.By;
