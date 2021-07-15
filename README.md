@@ -1,2 +1,0 @@
-# testautotest
-Testing features Git
