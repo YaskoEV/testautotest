@@ -23,6 +23,7 @@ public class findBy {
         Thread.sleep(30000);
 		driver.close();
 		System.out.println("Завершение - ок");
+		//Тест слияний и т.д.
 
 		
 		/*
